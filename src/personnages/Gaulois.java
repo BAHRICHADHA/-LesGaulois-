@@ -29,9 +29,9 @@ public class Gaulois {
 		romain.recevoirCoup(force / 3);
 	}
 
-//	public String toString() {
-//		return "Gaulois [nom=" + nom + ", force=" + force + ", effetpotion=" + effetpotion + "]";
-//	}
+	public String toString() {
+		return "Gaulois [nom=" + nom + ", force=" + force + ", effetpotion=" + effetpotion + "]";
+	}
 
 	public static void main(String[] args) {
 		asterix (nom = "Astérix", force = 8);
